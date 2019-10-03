@@ -21,3 +21,4 @@ int main()
  
     return 0;
 }
+// it doesnt work for the string "NITIN"
