@@ -1,12 +1,9 @@
-#include<stdio.h>
- 
+#include<iostream>
+ using namespace std;
 int main()
 {
     int n=111, a,b=0,num;
-    
-
     num=n;
-    
     while(n!=0)
     {
         a=n%10;
@@ -15,9 +12,9 @@ int main()
     }
     
     if(num==b)
-        printf("\nThe given number is palindrome");
+        cout << "The given number is palindrome" << endl;
     else
-        printf("\nThe given number is not palindrome");
+        cout << "The given number is not palindrome" << endl;
  
     return 0;
 }
